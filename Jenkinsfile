@@ -10,7 +10,7 @@ agent any
 	stages {
 	    stage('Fetch code') {
             steps {
-               git branch: 'vp-rem', url: 'https://github.com/devopshydclub/vprofile-repo.git'
+               git branch: 'main', url: 'https://github.com/MohitLAL0106/guvi-geek.git'
             }
 
 	    }
